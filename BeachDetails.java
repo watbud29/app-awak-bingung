@@ -51,9 +51,9 @@ public class BeachDetails extends AppCompatActivity {
 
     String city_str = getIntent().getStringExtra("putextra_city");
 
-    if (city_str.equals("Roemah Pohon")) {
-      city.setText("Roemah Pohon");
-      lokasi.setText("Batu Besar");
+    if (city_str.equals("Melayu")) {
+      city.setText("Melayu");
+      lokasi.setText("Jembatan 2 Barelang");
       attr1name.setText("Sun Moffie");
       attr2name.setText("Roemah Pohon");
       attr1des.setText("Nongsa");
@@ -68,11 +68,11 @@ public class BeachDetails extends AppCompatActivity {
       food2img.setImageResource(R.drawable.amatipng);
       description.setText("Tempat Bernuansa Alam");
       location =
-          "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15956.045089018658!2d104.1284838!3d1.1524394!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73ab5d93ef9c57fe!2sRoemah%20Pohon!5e0!3m2!1sen!2sid!4v1665840580121!5m2!1sen!2sid";
-      timetovisit.setText("October to Mwarch");
+          "https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d127649.53706440685!2d103.99322768649637!3d1.1258858589778167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d1.148188!2d103.99562739999999!4m5!1s0x31d987beadfaf7e7%3A0x73ab5d93ef9c57fe!2sroemah%20pohon!3m2!1d1.1524394!2d104.1284838!5e0!3m2!1sid!2sid!4v1668566672052!5m2!1sid!2sid";
+      timetovisit.setText("Weekend and other day");
       duration.setText("Location");
       mainimage.setImageResource(R.drawable.roemah_pohon);
-      rating.setText("");
+      rating.setText("4.1 \n442 Reviews");
     }
     if (city_str.equals("Cetro")) {
       city.setText("Cetro");
